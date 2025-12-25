@@ -1,16 +1,55 @@
-# React + Vite
+# SideProject Dashboard 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal **dashboard web application** to manage daily productivity in one place.  
+This project is built to experiment with modern frontend tools and create a clean, reusable UI for side projects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## React Compiler
+![Dashboard UI](public/screenshot.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📋 **Todo List**
+  - Add and manage daily tasks
+  - Mark tasks as completed
+- 📅 **Date-based task selection**
+  - Pick a date using a calendar
+  - View tasks per selected date
+- 🎨 **Modern UI**
+  - Built with reusable UI components
+  - Clean and minimal design
+- 🧩 **Scrollable task list**
+  - Handles large number of tasks smoothly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React (Client Components)
+- **UI Library:** shadcn/ui
+- **Icons:** lucide-react
+- **Styling:** Tailwind CSS
+- **Date Handling:** date-fns
+- **State Management:** React Hooks
+- **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+SideProject-Dashboard/
+│
+├── components/
+│ ├── ui/ # Reusable UI components
+│ └── TodoList.jsx # Todo list feature
+│
+├── pages / app # Application entry (framework dependent)
+├── styles # Global styles
+└── README.md
+
+## To start
+
+npm install
+npm run dev
