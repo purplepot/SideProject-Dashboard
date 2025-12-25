@@ -38,18 +38,19 @@ This project is built to experiment with modern frontend tools and create a clea
 ---
 
 ## 📂 Project Structure
-
-SideProject-Dashboard/
-│
-├── components/
-│ ├── ui/ # Reusable UI components
-│ └── TodoList.jsx # Todo list feature
-│
-├── pages / app # Application entry (framework dependent)
-├── styles # Global styles
-└── README.md
-
+<br>
+SideProject-Dashboard/<br>
+│<br>
+├── components/<br>
+│ ├── ui/ # Reusable UI components<br>
+│ └── TodoList.jsx # Todo list feature<br>
+│<br>
+├── pages / app # Application entry (framework dependent)<br>
+├── styles # Global styles<br>
+└── README.md<br>
+<br>
 ## To start
+<br>
+-npm install
 
-npm install
-npm run dev
+-npm run dev
